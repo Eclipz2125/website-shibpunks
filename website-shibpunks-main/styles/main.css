@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap');
+
+@font-face {
+  font-family: 'myfont';
+  src: url('fonts/AttackGraffiti.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Khula';
+  background: url('/logo.png');
+  background-attachment: fixed;
+  background-size: repeat;
+  background-color: black;
+}
+
+.textglow-green {
+  text-shadow: 0px 0px 40px #60ff6d;
+}
+
+.textshadow-red {
+  text-shadow: 1px 1px 1px #726B6B;
+}
+
+.textglow-dark {
+  text-shadow: 0px 0px 40px #002c04;
+}
+
+.textglow-pink {
+  text-shadow: 0px 0px 20px #ea1889;
+}
+
+.imageglow {
+  box-shadow: 0px 0px 20px #60ff6d;
+}
